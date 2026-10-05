@@ -1,0 +1,270 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/289c7d01-fea6-49b9-80ef-e5889346a4b2";
+const imgActionIcon = `${assetPathPrefix}/00f52.svg`;
+const imgActionIcon1 = `${assetPathPrefix}/664b8.svg`;
+const imgControl = `${assetPathPrefix}/dced3.svg`;
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--background-\/-primary,white)] relative size-full" data-node-id="135:5391" data-name="Мой план">
+      <div className="absolute content-stretch flex h-[36px] items-center left-[40px] overflow-clip top-[40px]" data-node-id="135:5649" data-name="Section Header">
+        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-none not-italic relative shrink-0 text-[36px] text-[color:var(--text-\/-primary,#191716)] tracking-[-1.8px] uppercase w-[706px]" data-node-id="I135:5649;116:166">
+          Мой план
+        </p>
+      </div>
+      <div className="absolute contents left-[40px] top-[136px]" data-node-id="135:5883">
+        <div className="absolute border-[#191716] border-solid border-t-[1.5px] content-stretch flex flex-col items-start left-[40px] top-[176px] w-[464px]" data-node-id="135:5655" data-name="Schedule List">
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[114px] py-[16px] relative shrink-0 w-full" data-node-id="135:5656" data-name="Schedule Row">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5656;123:4489">
+              Создание работ
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5656;123:4490">
+              Площадки в городе
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5656;123:4491">
+              3–5 июля · 11:00–18:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5656;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic opacity-80 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5656;123:4493">
+                Вход свободный
+              </p>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5656;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5656;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5656;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[114px] py-[16px] relative shrink-0 w-full" data-node-id="135:5657" data-name="Schedule Row 2">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5657;123:4489">
+              Экскурсия с Димой Четыре
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5657;123:4490">
+              Речной вокзал
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5657;123:4491">
+              3 июля · 13:00–15:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5657;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5657;123:4493">
+                Регистрация
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5657;123:4494" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon1} />
+              </div>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5657;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5657;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5657;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[113px] py-[16px] relative shrink-0 w-full" data-node-id="135:5658" data-name="Schedule Row 3">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5658;123:4489">
+              Открытие выставки фестиваля
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5658;123:4490">
+              Галерея 9Б
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5658;123:4491">
+              3 июля · 16:00–17:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5658;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic opacity-80 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5658;123:4493">
+                Вход свободный
+              </p>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5658;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5658;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5658;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-none left-[40px] not-italic text-[24px] text-[color:var(--text-\/-primary,#191716)] top-[136px] tracking-[-0.6px] whitespace-nowrap" data-node-id="135:5859">
+          3 июля
+        </p>
+      </div>
+      <div className="absolute contents left-[calc(33.33%+20px)] top-[136px]" data-node-id="135:5881">
+        <div className="absolute border-[#191716] border-solid border-t-[1.5px] content-stretch flex flex-col items-start left-[calc(33.33%+20px)] top-[176px] w-[464px]" data-node-id="135:5783" data-name="Schedule List">
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[114px] py-[16px] relative shrink-0 w-full" data-node-id="135:5784" data-name="Schedule Row">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5784;123:4489">
+              Создание работ
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5784;123:4490">
+              Площадки в городе
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5784;123:4491">
+              3–5 июля · 11:00–18:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5784;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic opacity-80 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5784;123:4493">
+                Вход свободный
+              </p>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5784;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5784;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5784;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[114px] py-[16px] relative shrink-0 w-full" data-node-id="135:5785" data-name="Schedule Row 2">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5785;123:4489">
+              Экскурсия с Димой Четыре
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5785;123:4490">
+              Речной вокзал
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5785;123:4491">
+              3 июля · 13:00–15:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5785;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5785;123:4493">
+                Регистрация
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5785;123:4494" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon1} />
+              </div>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5785;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5785;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5785;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[113px] py-[16px] relative shrink-0 w-full" data-node-id="135:5786" data-name="Schedule Row 3">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5786;123:4489">
+              Открытие выставки фестиваля
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5786;123:4490">
+              Галерея 9Б
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5786;123:4491">
+              3 июля · 16:00–17:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5786;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic opacity-80 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5786;123:4493">
+                Вход свободный
+              </p>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5786;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5786;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5786;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[113px] py-[16px] relative shrink-0 w-full" data-node-id="135:5868" data-name="Schedule Row 4">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5868;123:4489">
+              Открытие выставки фестиваля
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5868;123:4490">
+              Галерея 9Б
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5868;123:4491">
+              3 июля · 16:00–17:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5868;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic opacity-80 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5868;123:4493">
+                Вход свободный
+              </p>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5868;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5868;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5868;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-none left-[calc(33.33%+20px)] not-italic text-[24px] text-[color:var(--text-\/-primary,#191716)] top-[136px] tracking-[-0.6px] whitespace-nowrap" data-node-id="135:5861">
+          4 июля
+        </p>
+      </div>
+      <div className="absolute contents left-[66.67%] top-[136px]" data-node-id="135:5884">
+        <div className="absolute border-[#191716] border-solid border-t-[1.5px] content-stretch flex flex-col items-start left-[66.67%] top-[176px] w-[464px]" data-node-id="135:5885" data-name="Schedule List">
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[114px] py-[16px] relative shrink-0 w-full" data-node-id="135:5886" data-name="Schedule Row">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5886;123:4489">
+              Создание работ
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5886;123:4490">
+              Площадки в городе
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5886;123:4491">
+              3–5 июля · 11:00–18:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5886;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic opacity-80 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5886;123:4493">
+                Вход свободный
+              </p>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5886;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5886;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5886;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#191716] border-b-[1.5px] border-solid gap-y-[12px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(3,minmax(0,1fr))] h-[114px] py-[16px] relative shrink-0 w-full" data-node-id="135:5887" data-name="Schedule Row 2">
+            <p className="[word-break:break-word] col-[1/span_2] font-['Inter:Semi_Bold'] font-semibold justify-self-stretch leading-[1.25] min-w-[300px] not-italic relative row-1 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5887;123:4489">
+              Экскурсия с Димой Четыре
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic opacity-80 relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px]" data-node-id="I135:5887;123:4490">
+              Речной вокзал
+            </p>
+            <p className="[word-break:break-word] col-2 font-['Inter:Medium'] font-medium justify-self-stretch leading-[1.25] not-italic relative row-2 self-stretch shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] text-right tracking-[-0.4px]" data-node-id="I135:5887;123:4491">
+              3 июля · 13:00–15:00
+            </p>
+            <div className="col-1 content-stretch flex gap-[4px] items-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5887;123:4492" data-name="Schedule Cell">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5887;123:4493">
+                Регистрация
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5887;123:4494" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon1} />
+              </div>
+            </div>
+            <div className="col-2 content-stretch flex gap-[4px] items-end justify-end justify-self-stretch relative row-3 self-stretch shrink-0" data-node-id="I135:5887;132:5327" data-name="Schedule Cell 6">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-none not-italic relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] whitespace-nowrap" data-node-id="I135:5887;132:5327;132:5254">
+                Убрать из плана
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I135:5887;132:5327;132:5255" data-name="Action Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgActionIcon} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-none left-[66.67%] not-italic text-[24px] text-[color:var(--text-\/-primary,#191716)] top-[136px] tracking-[-0.6px] whitespace-nowrap" data-node-id="135:5888">
+          5 июля
+        </p>
+      </div>
+      <div className="absolute bg-[var(--text-\/-primary,#191716)] content-stretch flex h-[48px] items-center justify-center px-[24px] py-[13px] right-[66.67%] top-[753px] w-[464px]" data-node-id="135:5864" data-name="Button">
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.1] not-italic relative shrink-0 text-[18px] text-[color:var(--background-\/-primary,white)] text-center tracking-[-0.45px] whitespace-nowrap" data-node-id="I135:5864;116:95">
+          Скачать план
+        </p>
+      </div>
+      <div className="absolute right-[40px] size-[36px] top-[40px]" data-node-id="135:5912" data-name="Control">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+      </div>
+    </div>
+  );
+}

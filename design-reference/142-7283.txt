@@ -1,0 +1,221 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/a4c918e4-7c68-47f4-9506-b1c5c5fd3165";
+const imgArtistImage = `${assetPathPrefix}/d1954.png`;
+const imgControl = `${assetPathPrefix}/3e161.svg`;
+const imgArtistImage1 = `${assetPathPrefix}/003a8.png`;
+const imgArtistImage2 = `${assetPathPrefix}/129d9.png`;
+const imgArtistImage3 = `${assetPathPrefix}/08af7.png`;
+const imgArtistImage4 = `${assetPathPrefix}/1b59b.png`;
+const imgArtistImage5 = `${assetPathPrefix}/55c05.png`;
+const imgArtistImage6 = `${assetPathPrefix}/5bb2f.png`;
+const imgArtistImage7 = `${assetPathPrefix}/25d26.png`;
+const imgArtistImage8 = `${assetPathPrefix}/86d81.png`;
+
+function ArtistCard({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col gap-[16px] items-start relative"} data-node-id="116:124" data-name="Artist Card">
+      <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="116:117" data-name="Artist Image">
+        <div aria-hidden className="absolute inset-0 pointer-events-none">
+          <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+          <img alt="" className="absolute max-w-none object-bottom size-full" src={imgArtistImage} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="116:118" data-name="Artist Info">
+        <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="116:119" data-name="Artist Info">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="116:120">
+            Никита Nomerz
+          </p>
+          <div className="relative shrink-0 size-[18px]" data-node-id="116:121" data-name="Control">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="116:123">
+          Нижний Новгород
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--background-\/-primary,white)] content-center flex flex-wrap gap-[20px] items-center relative size-full" data-node-id="142:7283" data-name="Список художников">
+      <ArtistCard className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" />
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7285" data-name="Artist Card 2">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7285;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <img alt="" className="absolute max-w-none object-bottom size-full" src={imgArtistImage1} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7285;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7285;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7285;116:120">
+              Покрас Лампас
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7285;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7285;116:123">
+            Санкт-Петербург
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7286" data-name="Artist Card 3">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7286;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <img alt="" className="absolute max-w-none object-bottom size-full" src={imgArtistImage2} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7286;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7286;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7286;116:120">
+              Дмитрий Аске
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7286;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7286;116:123">
+            Москва
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7287" data-name="Artist Card 4">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7287;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <div className="absolute inset-0 overflow-hidden">
+              <img alt="" className="absolute h-[147.04%] left-[-183.55%] max-w-none top-[-26.74%] w-[293.54%]" src={imgArtistImage3} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7287;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7287;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7287;116:120">
+              Максим Трулов
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7287;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7287;116:123">
+            Нижний Новгород
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7288" data-name="Artist Card 5">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7288;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <img alt="" className="absolute max-w-none object-bottom size-full" src={imgArtistImage4} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7288;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7288;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7288;116:120">
+              Александр Stan
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7288;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7288;116:123">
+            Нижний Новгород
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7289" data-name="Artist Card 6">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7289;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <div className="absolute inset-0 overflow-hidden">
+              <img alt="" className="absolute h-[133%] left-[-68.22%] max-w-none top-[-33%] w-[236.44%]" src={imgArtistImage5} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7289;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7289;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7289;116:120">
+              Lida Birdly
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7289;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7289;116:123">
+            Нижний Новгород
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7290" data-name="Artist Card 7">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7290;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <div className="absolute inset-0 overflow-hidden">
+              <img alt="" className="absolute h-[102.66%] left-[-25.44%] max-w-none top-[-3.72%] w-[137.64%]" src={imgArtistImage6} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7290;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7290;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7290;116:120">
+              Елена Лисица
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7290;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7290;116:123">
+            Нижний Новгород
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7291" data-name="Artist Card 8">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7291;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <div className="absolute inset-0 overflow-hidden">
+              <img alt="" className="absolute h-full left-[-40.66%] max-w-none top-[3.1%] w-[200.08%]" src={imgArtistImage7} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7291;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7291;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7291;116:120">
+              Ксюша Ласточка
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7291;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7291;116:123">
+            Нижний Новгород
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-node-id="142:7292" data-name="Artist Card 9">
+        <div className="h-[400px] relative shrink-0 w-[300px]" data-node-id="I142:7292;116:117" data-name="Artist Image">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[var(--background-\/-secondary,#e8e8e8)] inset-0" />
+            <img alt="" className="absolute max-w-none object-bottom size-full" src={imgArtistImage8} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I142:7292;116:118" data-name="Artist Info">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I142:7292;116:119" data-name="Artist Info">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-none min-w-px not-italic relative text-[24px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.6px]" data-node-id="I142:7292;116:120">
+              Алексей Main
+            </p>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I142:7292;116:121" data-name="Control">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgControl} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.25] not-italic opacity-90 relative shrink-0 text-[16px] text-[color:var(--text-\/-primary,#191716)] tracking-[-0.4px] w-full" data-node-id="I142:7292;116:123">
+            Нижний Новгород
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
