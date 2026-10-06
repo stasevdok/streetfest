@@ -50,6 +50,7 @@ export function Header({ count, openPlan, goTo }) {
     return () => { document.body.style.overflow = previous; document.removeEventListener('keydown', key); };
   }, [menuOpen]);
   const badge = count > 0 && <span className="badge">{count}</span>;
+  const mobileActions = <div className="header-mobile-actions"><a href={planPath} className="plan-link" onClick={event => { event.preventDefault(); openPlan(); }}><span className="plan-label">Мой план</span>{badge}</a><button className="menu-trigger icon-button" aria-label="Открыть меню" aria-expanded={menuOpen} onClick={openMenu}><span/><span/><span/></button></div>;
   const select = id => { setMenuOpen(false); goTo(id); };
   return <>
     <header className="header" aria-hidden={solid} inert={solid ? '' : undefined}>
@@ -58,14 +59,14 @@ export function Header({ count, openPlan, goTo }) {
         <picture><source media="(max-width: 600px)" srcSet={asset('ef38d.svg')}/><img src={asset('a85ff.svg')} alt="УЛИЦА"/></picture>
       </a>
       <nav aria-label="Основная навигация">{navigation.map(([id, text]) => <a key={id} href={homePath + '#' + id} onClick={event => { event.preventDefault(); goTo(id); }}>{text}</a>)}<a href={planPath} className="plan-link" onClick={event => { event.preventDefault(); openPlan(); }}>Мой план {badge}</a></nav>
-      <button className="menu-trigger icon-button" aria-label="Открыть меню" aria-expanded={menuOpen} onClick={openMenu}><span/><span/><span/></button>
+      {mobileActions}
     </header>
     <header className={'header sticky-header ' + (solid ? 'visible' : '')} aria-hidden={!solid} inert={!solid ? '' : undefined}>
       <a href={homePath} className="logo" aria-label="УЛИЦА — к началу главной" onClick={event => { event.preventDefault(); goTo('top'); }}>
         <picture><source media="(max-width:600px)" srcSet={asset('d3452.svg')}/><img src={asset('ca51f.svg')} alt="УЛИЦА"/></picture>
       </a>
       <nav aria-label="Навигация при прокрутке">{navigation.map(([id,text]) => <a key={id} href={homePath+'#'+id} onClick={event=>{event.preventDefault();goTo(id);}}>{text}</a>)}<a href={planPath} className="plan-link" onClick={event=>{event.preventDefault();openPlan();}}>Мой план {badge}</a></nav>
-      <button className="menu-trigger icon-button" aria-label="Открыть меню" aria-expanded={menuOpen} onClick={openMenu}><span/><span/><span/></button>
+      {mobileActions}
     </header>
     <div ref={menu} className={'mobile-menu ' + (menuOpen ? 'open' : '')} role="dialog" aria-modal={menuOpen ? 'true' : undefined} aria-hidden={!menuOpen} inert={!menuOpen ? '' : undefined} aria-labelledby="menu-title">
       <div className="menu-heading"><h2 id="menu-title">Меню</h2><button className="icon-button" aria-label="Закрыть меню" onClick={close}><Icon name="close"/></button></div>
